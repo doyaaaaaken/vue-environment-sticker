@@ -1,24 +1,38 @@
-# vue-environment-sticker
+<h1 align="center">Welcome to vue-environment-sticker 👋</h1>
+<p>
+  <a href="https://www.npmjs.com/package/vue-environment-sticker" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/vue-environment-sticker.svg">
+  </a>
+  <a href="#" target="_blank">
+    <img alt="License: Apache--2.0" src="https://img.shields.io/badge/License-Apache--2.0-yellow.svg" />
+  </a>
+</p>
 
-## Project setup
-```
+> Vue.js component which shows a sticker displaying current environment name (e.g. 'demo', 'stg')
+
+### ✨ Demo
+
+TODO: write
+
+## Install
+
+TODO: write
+
+```sh
 yarn install
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
+## Usage
+
+TODO: write
+
+```sh
+TODO: write
 ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
+## Show your support
 
-### Lints and fixes files
-```
-yarn lint
-```
+Give a ⭐️ if this project helped you!
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
