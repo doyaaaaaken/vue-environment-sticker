@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <EnvironmentSticker/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import EnvironmentSticker from './components/EnvironmentSticker.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    EnvironmentSticker
   }
 }
 </script>
