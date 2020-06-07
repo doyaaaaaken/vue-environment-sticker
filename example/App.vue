@@ -1,26 +1,28 @@
 <template>
-  <div id="app">
-    <h1>This is EnvironmentSticker example page.</h1>
-    <EnvironmentSticker/>
-  </div>
+    <div id="app">
+        <h1>This is EnvironmentSticker example page.</h1>
+        <EnvironmentSticker
+                label="DEMO"
+        />
+    </div>
 </template>
 
 <script>
-import EnvironmentSticker from '../src/components/EnvironmentSticker.vue'
+    import EnvironmentSticker from '../src/components/EnvironmentSticker.vue'
 
-export default {
-  name: 'App',
-  components: {
-    EnvironmentSticker
-  }
-}
+    export default {
+        name: 'App',
+        components: {
+            EnvironmentSticker
+        }
+    }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+    #app {
+        font-family: Avenir, Helvetica, Arial, sans-serif;
+        text-align: center;
+        color: #2c3e50;
+        margin-top: 60px;
+    }
 </style>

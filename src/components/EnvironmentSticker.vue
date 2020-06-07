@@ -1,11 +1,18 @@
 <template>
     <div class="v-environment-sticker">
-        <p class="v-environment-sticker__inner">staging</p>
+        <p class="v-environment-sticker__inner">{{ label }}</p>
     </div>
 </template>
 
 <script>
-    export default {}
+    export default {
+        props: {
+            label: {
+                type: String,
+                default: "DEMO"
+            },
+        }
+    }
 </script>
 
 <style scoped>
@@ -18,6 +25,7 @@
         background: red;
         display: flex;
     }
+
     .v-environment-sticker__inner {
         margin: auto;
         font-weight: bold;
