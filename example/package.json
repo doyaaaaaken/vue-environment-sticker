@@ -1,6 +1,10 @@
 {
   "name": "example",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "scripts": {
+    "serve": "vue-cli-service serve index.js"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "~4.4.0"
+  }
 }

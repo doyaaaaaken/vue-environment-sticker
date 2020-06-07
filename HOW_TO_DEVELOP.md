@@ -1,6 +1,7 @@
 # how to develop (for contributors)
 
 ```
+cd example
 yarn install
 yarn serve
 ```
@@ -8,6 +9,6 @@ yarn serve
 ### Release command (only for the library creator)
 
 ```
-yarn build-lib
+yarn build
 yarn publish
 ```
