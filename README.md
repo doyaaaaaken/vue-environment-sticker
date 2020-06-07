@@ -46,6 +46,7 @@ That's all!! You can use `environment-sticker` component like below.
   <div class="content-wrapper>
    <h1>Demo page</h1>
   </div>
+  
   <EnvironmentSticker
       label="STAGING"
       theme="SQUARE"
