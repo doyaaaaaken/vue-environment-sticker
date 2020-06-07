@@ -12,7 +12,7 @@
 
 ### ✨ Demo
 
-TODO: write
+[CodePen](https://codepen.io/doyaaaaaken/pen/NWxqyYz)
 
 ## Install
 
