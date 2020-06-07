@@ -17,7 +17,7 @@ yarn serve
 And then you can see `example/App.vue` contents.
 By changing `App.vue`, you can test the appearance and behavior. 
 
-### Release command (only for the library creator)
+# Release command (only for the library creator)
 
 ```
 yarn build
