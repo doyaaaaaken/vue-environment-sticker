@@ -16,10 +16,11 @@
 
 ## Install
 
-TODO: write
+```bash
+yarn add vue-environment-sticker
 
-```sh
-yarn install
+# or if you use npm
+# `npm install vue-environment-sticker`
 ```
 
 ## Usage
