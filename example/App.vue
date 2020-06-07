@@ -2,7 +2,8 @@
     <div id="app">
         <h1>This is EnvironmentSticker example page.</h1>
         <EnvironmentSticker
-                label="DEMO"
+            label="DEMO"
+            position="BOTTOM_RIGHT"
         />
     </div>
 </template>
