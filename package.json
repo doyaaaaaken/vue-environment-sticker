@@ -18,12 +18,8 @@
   "main": "./dist/vue-environment-sticker.common.js",
   "module": "./dist/vue-environment-sticker.common.js",
   "unpkg": "./dist/vue-environment-sticker.umd.min.js",
-  "browser": {
-    "./sfc": "src/components/EnvironmentSticker.vue"
-  },
   "repository": "doyaaaaaken/vue-environment-sticker",
   "scripts": {
-    "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name vue-environment-sticker src/main.js",
     "lint": "vue-cli-service lint"
   },
