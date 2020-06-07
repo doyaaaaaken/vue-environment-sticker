@@ -20,10 +20,13 @@
         background: red;
         width: 100%;
         height: 100%;
+        padding: 4px;
     }
 
     .v-environment-sticker__inner {
-        margin: auto;
         font-weight: bold;
+        word-break: break-all;
+        font-size: 16px;
+        color: #0e1922;
     }
 </style>
