@@ -1,13 +1,11 @@
 <template>
     <div id="app">
-        <h1>This is EnvironmentSticker example page.</h1>
-        <EnvironmentSticker
-            label="STAGING"
-            position="BOTTOM_RIGHT"
-            theme="SQUARE"
-            :container-styles="{padding: '4px'}"
-            :label-styles="{fontSize: '12px', color: 'blue'}"
-        />
+        <h1>Vue Environment Sticker Demo</h1>
+        <div>
+            <p>This is Vue.js component which shows a sticker displaying current environment name (e.g. 'demo', 'stg')</p>
+            <p>See detail on <a href="https://github.com/doyaaaaaken/vue-environment-sticker">github</a>.</p>
+        </div>
+        <environment-sticker />
     </div>
 </template>
 

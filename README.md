@@ -16,6 +16,8 @@ You can make it easier to understand which environments you are accessing (stagi
 
 [CodePen](https://codepen.io/doyaaaaaken/pen/NWxqyYz)
 
+![Image of Demo page](pictures/default-theme.png)
+
 **ℹ️ Theare are only few themes available. I'll waiting your pull requests for the new COOL themes. See [HOW_TO_DEVELOP.md](HOW_TO_DEVELOP.md) if you're interested in it.**
 
 # Usage
