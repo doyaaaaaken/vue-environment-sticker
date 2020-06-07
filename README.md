@@ -34,8 +34,8 @@ Or you can install it directly in the browser through CDN.
 <!-- use the latest vue-environment-sticker release -->
 <script src="https://unpkg.com/vue-environment-sticker@latest"></script>
 
-<!-- or point to a specific vue-select release -->
-<script src="https://unpkg.com/vue-select@0.1.3"></script>
+<!-- or point to a specific vue-environment-sticker release -->
+<script src="https://unpkg.com/vue-environment-sticker@0.1.3"></script>
 ```
 
 
