@@ -77,9 +77,12 @@ you can install it directly in the browser through CDN.
 
 <!-- use the latest vue-environment-sticker release -->
 <script src="https://unpkg.com/vue-environment-sticker@latest"></script>
+<link rel="stylesheet" href="https://unpkg.com/vue-environment-sticker@latest/dist/vue-environment-sticker.css">
 
 <!-- or point to a specific vue-environment-sticker release -->
-<script src="https://unpkg.com/vue-environment-sticker@0.1.6"></script>
+<script src="https://unpkg.com/vue-environment-sticker@0.2.0"></script>
+<link rel="stylesheet" href="https://unpkg.com/vue-environment-sticker@0.2.0/dist/vue-environment-sticker.css">
+
 ```
 
 That's all!! You can use `environment-sticker` component.  
