@@ -44,7 +44,7 @@ That's all!! You can use `environment-sticker` component like below.
 ```sh
 <body>
   <div class="content-wrapper>
-   <!-- any html contents -->
+   <h1>Demo page</h1>
   </div>
   <EnvironmentSticker
       label="STAGING"
