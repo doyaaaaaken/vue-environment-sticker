@@ -14,9 +14,11 @@
 
 [CodePen](https://codepen.io/doyaaaaaken/pen/NWxqyYz)
 
-## Install
+# Usage
 
-Install it via package manager (`yarn` or `npm`).
+## with Yarn / npm
+
+Install it.
 
 ```bash
 yarn add vue-environment-sticker
@@ -25,7 +27,30 @@ yarn add vue-environment-sticker
 # `npm install vue-environment-sticker`
 ```
 
-Or you can install it directly in the browser through CDN.
+Then, import and register the component.
+
+```javascript
+import Vue from "vue";
+import EnvironmentSticker from "vue-environment-sticker";
+
+Vue.component("environment-sticker", EnvironmentSticker);
+```
+
+That's all!! You can use `environment-sticker` component like below.
+```sh
+<body>
+  <div class="content-wrapper>
+   <!-- any html contents -->
+  </div>
+  <environment-sticker>
+  </environment-sticker>
+</body>
+``` 
+
+
+## via CDN (directly install in the browser)
+
+you can install it directly in the browser through CDN.
 
 ```html
 <!-- include VueJS first -->
@@ -35,34 +60,11 @@ Or you can install it directly in the browser through CDN.
 <script src="https://unpkg.com/vue-environment-sticker@latest"></script>
 
 <!-- or point to a specific vue-environment-sticker release -->
-<script src="https://unpkg.com/vue-environment-sticker@0.1.4"></script>
+<script src="https://unpkg.com/vue-environment-sticker@0.1.6"></script>
 ```
 
-
-# Usage
-
-Import and register the component.
-
-```javascript
-import Vue from "vue";
-import EnvironmentSticker from "vue-environment-sticker";
-
-Vue.component("environment-sticker", EnvironmentSticker);
-```
-
-And then, use that vue component like below code.
-```sh
-<body>
-  <div class="content-wrapper>
-   <!-- any html contents -->
-  </div>
-  <environment-sticker>
-  </environment-sticker>
-</body>
-```
-
-That's all!! 
-
+That's all!! You can use `environment-sticker` component.  
+See detail on `with Yarn / npm Section`.
 
 ## Show your support
 
