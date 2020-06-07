@@ -1,8 +1,11 @@
 {
   "name": "vue-environment-sticker",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Vue.js component which shows a sticker displaying current environment name (e.g. 'demo', 'stg')",
-  "keywords": ["Vue.js", "component"],
+  "keywords": [
+    "Vue.js",
+    "component"
+  ],
   "homepage": "https://github.com/doyaaaaaken/vue-environment-sticker",
   "bugs": "https://github.com/doyaaaaaken/vue-environment-sticker/issues",
   "license": "Apache-2.0",
@@ -15,6 +18,9 @@
   "main": "./dist/vue-environment-sticker.common.js",
   "module": "./dist/vue-environment-sticker.common.js",
   "unpkg": "./dist/vue-environment-sticker.umd.min.js",
+  "browser": {
+    "./sfc": "src/components/EnvironmentSticker.vue"
+  },
   "repository": "doyaaaaaken/vue-environment-sticker",
   "scripts": {
     "serve": "vue-cli-service serve",
