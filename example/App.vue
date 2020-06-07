@@ -4,6 +4,7 @@
         <EnvironmentSticker
             label="DEMO"
             position="BOTTOM_RIGHT"
+            theme="SQUARE"
         />
     </div>
 </template>
