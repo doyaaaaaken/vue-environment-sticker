@@ -1,12 +1,12 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <img alt="Vue logo" src="assets/logo.png">
     <EnvironmentSticker/>
   </div>
 </template>
 
 <script>
-import EnvironmentSticker from './components/EnvironmentSticker.vue'
+import EnvironmentSticker from '../src/components/EnvironmentSticker.vue'
 
 export default {
   name: 'App',
