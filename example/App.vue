@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="assets/logo.png">
+    <h1>This is EnvironmentSticker example page.</h1>
     <EnvironmentSticker/>
   </div>
 </template>
