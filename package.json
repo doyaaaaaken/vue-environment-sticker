@@ -1,6 +1,6 @@
 {
   "name": "vue-environment-sticker",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Vue.js component which shows a sticker displaying current environment name (e.g. 'demo', 'stg')",
   "keywords": [
     "Vue.js",
@@ -24,8 +24,7 @@
   "repository": "doyaaaaaken/vue-environment-sticker",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "build-lib": "vue-cli-service build --target lib --name vue-environment-sticker src/main.js",
+    "build": "vue-cli-service build --target lib --name vue-environment-sticker src/main.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
