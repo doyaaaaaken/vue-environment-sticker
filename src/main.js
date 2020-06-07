@@ -1,2 +1,2 @@
 import EnvironmentSticker from './components/EnvironmentSticker';
-export default EnvironmentSticker
+export default EnvironmentSticker;

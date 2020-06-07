@@ -28,6 +28,9 @@ yarn add vue-environment-sticker
 Or you can install it directly in the browser through CDN.
 
 ```html
+<!-- include VueJS first -->
+<!--<script src="https://unpkg.com/vue@latest"></script>-->
+
 <!-- use the latest vue-environment-sticker release -->
 <script src="https://unpkg.com/vue-environment-sticker@latest"></script>
 
