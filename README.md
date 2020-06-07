@@ -16,6 +16,8 @@ You can make it easier to understand which environments you are accessing (stagi
 
 [CodePen](https://codepen.io/doyaaaaaken/pen/NWxqyYz)
 
+**ℹ️ Theare are only few themes available. I'll waiting your pull requests for the new COOL themes. See [HOW_TO_DEVELOP.md](HOW_TO_DEVELOP.md) if you're interested in it.**
+
 # Usage
 
 ## with Yarn / npm
@@ -57,7 +59,7 @@ These are available props. (**all props are optional.**)
 |------------|---------------|---------------|-------------------------------------|
 | label | String | `DEMO` | label which shows environment name |
 | position | String | `BOTTOM_RIGHT` | sticker position. <br/><br/>Available values: `BOTTOM_RIGHT` / `BOTTOM_LEFT` |
-| theme | String | `SQUARE` | The appearance of the label. <br/><br/>Available values: `SQUARE` |
+| theme | String | `SQUARE` | The appearance of the label. <br/><br/>Available values: `SQUARE`<br/><br/> **ℹ️ Theare are only few themes available. I'll waiting your pull requests for the new COOL themes. See [HOW_TO_DEVELOP.md](HOW_TO_DEVELOP.md) if you're interested in it.** |
 | containerStyles | Object | `{}` | CSS styles for the container. This is bound as [inline style](https://vuejs.org/v2/guide/class-and-style.html#Binding-Inline-Styles). <br/><br/>e.g. `{padding: '4px'}` |
 | labelStyles | Object | `{}` | CSS styles for the label. This is bound as [inline style](https://vuejs.org/v2/guide/class-and-style.html#Binding-Inline-Styles). <br/><br/>e.g. `{fontSize: '12px', color: 'blue'}` |
 
