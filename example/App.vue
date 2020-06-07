@@ -2,9 +2,11 @@
     <div id="app">
         <h1>This is EnvironmentSticker example page.</h1>
         <EnvironmentSticker
-            label="DEMO"
+            label="STAGING"
             position="BOTTOM_RIGHT"
             theme="SQUARE"
+            :container-styles="{padding: '4px'}"
+            :label-styles="{fontSize: '12px', color: 'blue'}"
         />
     </div>
 </template>

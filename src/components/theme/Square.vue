@@ -1,6 +1,13 @@
 <template>
-    <div class="v-environment-sticker__square">
-        <p class="v-environment-sticker__label">{{ label }}</p>
+    <div
+        :style="containerStyles"
+        class="v-environment-sticker__square">
+        <p
+            :style="labelStyles"
+            class="v-environment-sticker__label"
+        >
+            {{ label }}
+        </p>
     </div>
 </template>
 
@@ -10,6 +17,12 @@
             label: {
                 type: String,
                 required: true
+            },
+            containerStyles: {
+                type: Object
+            },
+            labelStyles: {
+                type: Object
             }
         }
     }

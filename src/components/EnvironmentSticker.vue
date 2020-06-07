@@ -8,6 +8,8 @@
         <square-theme
                 v-if="theme === 'SQUARE'"
                 :label="label"
+                :container-styles="containerStyles"
+                :label-styles="labelStyles"
         />
     </div>
 </template>
@@ -30,6 +32,14 @@
             theme: {
                 type: String,
                 default: "SQUARE"
+            },
+            //CSS styles for container
+            containerStyles: {
+                type: Object
+            },
+            //CSS styles for label
+            labelStyles: {
+                type: Object
             }
         },
         components: {
