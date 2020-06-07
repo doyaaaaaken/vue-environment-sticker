@@ -1,36 +1,25 @@
 <template>
-  <div class="hello">
-    <button @click="increment">{{ text }}</button>
-  </div>
+    <div class="v-environment-sticker">
+        <p class="v-environment-sticker__inner">staging</p>
+    </div>
 </template>
 
 <script>
-  export default {
-    data () {
-      return {
-        count: 0
-      }
-    },
-    computed: {
-      times () {
-        return this.count > 1
-                ? 'times'
-                : 'time'
-      },
-      text () {
-        return `I have been clicked ${this.count} ${this.times}`
-      }
-    },
-    methods: {
-      increment () {
-        this.count += 1
-      }
-    }
-  }
+    export default {}
 </script>
 
 <style scoped>
-.hello {
-  background: darkred;
-}
+    .v-environment-sticker {
+        right: 0;
+        bottom: 0;
+        width: 70px;
+        height: 70px;
+        position: fixed;
+        background: red;
+        display: flex;
+    }
+    .v-environment-sticker__inner {
+        margin: auto;
+        font-weight: bold;
+    }
 </style>
