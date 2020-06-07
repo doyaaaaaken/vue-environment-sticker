@@ -10,6 +10,8 @@
 
 > Vue.js component which shows a sticker displaying current environment name (e.g. 'demo', 'stg')
 
+You can make it easier to understand which environments you are accessing (staging? demo? production?) and **reduce incidents.**
+
 ### ✨ Demo
 
 [CodePen](https://codepen.io/doyaaaaaken/pen/NWxqyYz)
@@ -44,11 +46,20 @@ That's all!! You can use `environment-sticker` component like below.
   </div>
   <EnvironmentSticker
       label="STAGING"
-      position="BOTTOM_RIGHT"
       theme="SQUARE"
   />
 </body>
 ``` 
+
+These are available props. (**all props are optional.**)
+
+| name | type | default value | description                         |
+|------------|---------------|---------------|-------------------------------------|
+| label | String | `DEMO` | label which shows environment name |
+| position | String | `BOTTOM_RIGHT` | sticker position. <br/><br/>Available values: `BOTTOM_RIGHT` / `BOTTOM_LEFT` |
+| theme | String | `SQUARE` | The appearance of the label. <br/><br/>Available values: `SQUARE` |
+| containerStyles | Object | `{}` | CSS styles for the container. This is bound as [inline style](https://vuejs.org/v2/guide/class-and-style.html#Binding-Inline-Styles). <br/><br/>e.g. `{padding: '4px'}` |
+| labelStyles | Object | `{}` | CSS styles for the label. This is bound as [inline style](https://vuejs.org/v2/guide/class-and-style.html#Binding-Inline-Styles). <br/><br/>e.g. `{fontSize: '12px', color: 'blue'}` |
 
 
 ## via CDN (directly install in the browser)
