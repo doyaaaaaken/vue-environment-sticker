@@ -1,6 +1,6 @@
 {
   "name": "vue-environment-sticker",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Vue.js component which shows a sticker displaying current environment name (e.g. 'demo', 'stg')",
   "keywords": ["Vue.js", "component"],
   "homepage": "https://github.com/doyaaaaaken/vue-environment-sticker",
