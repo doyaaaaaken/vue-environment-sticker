@@ -55,15 +55,4 @@
         bottom: 0;
         left: 0;
     }
-
-    .v-environment-sticker__square {
-        background: red;
-        width: 100%;
-        height: 100%;
-    }
-
-    .v-environment-sticker__inner {
-        margin: auto;
-        font-weight: bold;
-    }
 </style>
