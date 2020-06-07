@@ -42,8 +42,11 @@ That's all!! You can use `environment-sticker` component like below.
   <div class="content-wrapper>
    <!-- any html contents -->
   </div>
-  <environment-sticker>
-  </environment-sticker>
+  <EnvironmentSticker
+      label="STAGING"
+      position="BOTTOM_RIGHT"
+      theme="SQUARE"
+  />
 </body>
 ``` 
 
