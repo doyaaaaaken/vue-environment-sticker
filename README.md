@@ -42,18 +42,6 @@ import EnvironmentSticker from "vue-environment-sticker";
 Vue.component("environment-sticker", EnvironmentSticker);
 ```
 
-The component itself does not include any CSS. You'll need to include it separately:
-
-```javascript
-import 'vue-environment-sticker/dist/vue-environment-sticker.css';
-```
-
-Alternatively, you can import the scss for complete control of the component styles:
-```scss
-@import "vue-environment-sticker/dist/vue-environment-sticker.css";
-```
-
-
 That's all!! You can use `environment-sticker` component like below.
 ```sh
 <body>
@@ -89,11 +77,9 @@ you can install it directly in the browser through CDN.
 
 <!-- use the latest vue-environment-sticker release -->
 <script src="https://unpkg.com/vue-environment-sticker@latest"></script>
-<link rel="stylesheet" href="https://unpkg.com/vue-environment-sticker@latest/dist/vue-environment-sticker.css">
 
 <!-- or point to a specific vue-environment-sticker release -->
 <script src="https://unpkg.com/vue-environment-sticker@0.2.0"></script>
-<link rel="stylesheet" href="https://unpkg.com/vue-environment-sticker@0.2.0/dist/vue-environment-sticker.css">
 ```
 
 That's all!! You can use `environment-sticker` component.  
