@@ -1,6 +1,6 @@
 <template>
     <div class="v-environment-sticker__square">
-        <p class="v-environment-sticker__inner">{{ label }}</p>
+        <p class="v-environment-sticker__label">{{ label }}</p>
     </div>
 </template>
 
@@ -9,7 +9,7 @@
         props: {
             label: {
                 type: String,
-                default: "DEMO"
+                required: true
             }
         }
     }
@@ -23,7 +23,7 @@
         padding: 4px;
     }
 
-    .v-environment-sticker__inner {
+    .v-environment-sticker__label {
         font-weight: bold;
         word-break: break-all;
         font-size: 16px;
